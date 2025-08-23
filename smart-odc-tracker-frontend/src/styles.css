@@ -1,0 +1,134 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background: #000307;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+    opacity: 1;
+    filter: none;
+  }
+  
+  .company-name {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .navbar nav a {
+    color: rgb(3, 24, 49);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url("https://source.unsplash.com/1600x900/?cargo,transport") no-repeat center center/cover;
+    color: white;
+    min-height: 400px; /* Ensure it shows */
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .cta-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: #0062e6;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .cta-btn:hover {
+    background: #fff;
+    color: #0046b3;
+  }
+  
+  .tracking-container {
+    width: 400px;
+    background: white;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .tracking-container h2 {
+    font-size: 22px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+  }
+  
+  button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 15px;
+    background: #080000;
+    color: white;
+    font-size: 14px;
+  }
+  
