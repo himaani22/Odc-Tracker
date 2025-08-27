@@ -37,7 +37,7 @@ const Tracking = () => {
 
   return (
     <>
-      <Navbar onSafetyAlertCheck={checkSafetyAlerts} />
+      
 
       <div style={{ padding: '40px', textAlign: 'center' }}>
         <h2 style={{ marginBottom: '20px' }}>Live Vehicle Tracking</h2>
@@ -79,7 +79,7 @@ const Tracking = () => {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   );
 };

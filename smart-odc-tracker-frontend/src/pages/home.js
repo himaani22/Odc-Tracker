@@ -23,7 +23,7 @@ function Home() {
       title: 'Real-Time ODC Tracking',
       description:
         'Monitor oversized load movements in real-time, ensuring transparency and location accuracy throughout the journey.',
-      image: tracking,
+      image: tracking, 
     },
     {
       title: 'AI-based Route Optimization',
